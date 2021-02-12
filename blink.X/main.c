@@ -17,7 +17,7 @@ void main(void)
     {
         PORTDbits.RD7= 1;
         __delay_ms(500);
-        PORTDbits.RD7= 1;
+        PORTDbits.RD7= 0;
         
     }
     
